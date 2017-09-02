@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
 
-##Dependencies
+## Dependencies
 
    - "@angular/animations": "^4.3.6"
    - "@angular/material": "^2.0.0-beta.10"
