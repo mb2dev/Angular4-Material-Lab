@@ -1,5 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<!--<div style="text-align:center">
   <h1>
     Welcome to {{title}}!
   </h1>
@@ -16,5 +16,17 @@
   <li>
     <h2><a target="_blank" href="https://blog.angular.io//">Angular blog</a></h2>
   </li>
-</ul>
+</ul>-->
+
+<md-toolbar color='primary'>
+    <span>Ermeo</span>
+    <span class="exemple-space"></span>
+    <button md-button [mdMenuTriggerFor]="appMenu"><md-icon>menu</md-icon> Menu</button>
+
+</md-toolbar>
+
+<md-menu #appMenu='mdMenu'>
+  <button md-menu-item> Settings </button>
+  <button md-menu-item> Help </button>
+</md-menu>
 
